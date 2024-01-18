@@ -1,0 +1,82 @@
+
+
+.single_vacancy_li_block {
+    margin-top: 10px;
+}
+
+.card_extra_title_blocks_inner {
+    p {
+         font-style: normal;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 22px;
+         color: #FFFFFF;
+        margin: 10px 0 0 0;
+    }
+    li {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 171.5%;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+
+    ul {
+        margin: 9px 0 45px 0;
+        padding: 0 0 0 20px;
+    }
+}
+
+.single_vacancy_ul {
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+    .card_extra_title_blocks_inner {
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        li {
+           font-weight: 300;
+           font-size: 16px;
+           line-height: 171.5%;
+        }
+    }
+
+
+    .single_vacancy_inner_left_title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .single_vacancy_ul_title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+       
+    }
+
+    .single_vacancy_li_list {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 171.5%;
+        
+    }
+
+    .single_vacancy_ul {
+        margin-bottom: 70px;
+    }
+
+}
+
+
+
+

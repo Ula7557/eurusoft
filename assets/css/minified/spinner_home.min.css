@@ -1,0 +1,2 @@
+.spinner_home{position:fixed;margin:auto;width:100vw;height:100vh;background:radial-gradient(50% 50% at 50% 50%, #36377C 0%, #181942 100%);z-index:9999;-webkit-transition:all ease 0.2s;transition:all ease 0.2s;-webkit-transform:scale(1);transform:scale(1)}.spinner_home.activ{overflow:hidden;-webkit-transform:scale(0);transform:scale(0)}.spinner_home_img{width:400px;height:400px;display:block;margin:200px auto 0}
+/*# sourceMappingURL=spinner_home.min.css.map */

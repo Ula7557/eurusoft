@@ -1,0 +1,128 @@
+.about-page1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+}
+.about-page1-copy {
+    flex-direction: row-reverse ;
+}
+
+
+
+
+.iframe_about {
+    width: 550px;
+    height: 326px;
+    border-radius: 15px;
+}
+
+.about-page1-text {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 48px;
+    line-height: 58px;
+    max-width: 462px;
+    color: #FFFFFF;
+}
+
+.about_homepage-card-info {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 171.5%;
+    opacity: 0.7;
+    margin-top: 20px;
+    max-width: 462px;
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+    .iframe_about {
+        max-width: 450px;
+        height: 326px;
+    }
+}
+
+
+@media only screen and (max-width: 960px) {
+
+
+    .about-page1 {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        align-items: flex-start;
+        
+
+    }
+
+
+    .about-page1-text {
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 46px;
+        max-width: 100%;
+    }
+
+    .about_homepage-card-info {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 171.5%;
+        max-width: 100%;
+    }
+
+    
+
+    .iframe_about {
+        max-width: 968px;
+        height: 300px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-page1-left {
+        margin: 0 auto;
+    }
+
+    .about-page1-right {
+        width: 100%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+    .about-page1 {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+
+    .about-page1-text {
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .about_homepage-card-info {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 171.5%;
+    }
+
+    .iframe_about {
+        max-width: 100%;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+
+}

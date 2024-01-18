@@ -1,0 +1,23 @@
+.spinner__inner {
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 200;
+    top: 0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    background-image: linear-gradient(to bottom left, #36377c, #181942, #181942, #181942, #36377c);
+    
+}
+
+.spinner {
+    position: absolute !important;
+    top: 200px !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+    width: 100px !important;
+    height: 100px !important;
+}

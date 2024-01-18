@@ -1,0 +1,63 @@
+
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    top: 100px;
+    right: -2000px;
+    align-items: center;
+    transition: all ease 0.5s;
+    width: 400px;
+    height: 70px;
+    background: #fff;
+    border-radius: 6px;
+    
+    &.active {
+        right: 20px;
+}
+    img {
+        width: 50px;
+        object-fit: contain;
+        padding: 8px;
+    }
+    &-left {
+        &.false {
+            background-color: rgb(185, 40, 40);
+        }
+        background-color: green;
+        height: 100%;
+        position: relative;
+    }
+    &-right {
+        padding: 8px;
+        button {
+            &.false {
+                background-color: rgb(185, 40, 40);
+            }
+            position: absolute;
+            right: -10px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: rgb(52, 158, 78);
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            border: none;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+    .modal {
+        width: 300px;
+    }
+}

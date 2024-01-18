@@ -1,0 +1,34 @@
+.spinner_home {
+    position: fixed;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, #36377C 0%, #181942 100%);
+    z-index: 9999;
+    transition: all ease 0.2s;
+        transform: scale(1);
+    
+    &.activ {
+        overflow: hidden;
+        transform: scale(0);
+
+    }
+}
+
+.spinner_home_img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 200px auto 0;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .spinner_home_img {
+        width: 300px;
+        margin: 110px auto 0;
+        
+    }
+
+}
+

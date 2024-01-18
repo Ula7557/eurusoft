@@ -1,0 +1,156 @@
+.services-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    margin-top: 143px;
+    &.row {
+        flex-direction: row-reverse;
+    }
+}
+
+.services-card-img {
+    width: 100%;
+}
+
+.services-card-info_box {
+
+    .services-card-development {
+        font-style: normal;
+        font-weight: 350;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    .services-card-info1 {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 171.5%;
+        opacity: 0.7;
+        max-width: 460px;
+        margin-top: 42px;
+        color: #FFFFFF;
+    }
+
+    .services-card-info-text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 171.5%;
+        color: #FFFFFF;
+        margin-top: 20px;
+        display: block;
+    }
+
+    .services-card-info {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 171.5%;
+        opacity: 0.7;
+        max-width: 460px;
+        margin-top: 10px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+
+    
+}
+
+.services-card-img-block {
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+
+
+    .services-card {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        align-items: flex-start;
+    }
+
+    .services-card-info_box .services-card-development {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .services-card-info_box .services-card-info1 {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 171.5%;
+        max-width: 100%;
+    }
+
+     .services-card-info_box .services-card-info {
+         font-weight: 300;
+         font-size: 16px;
+         line-height: 171.5%;
+         max-width: 100%;
+         margin-top: 30px;
+     }
+
+    .services-card-img-block {
+        width: 100%;
+    }
+
+    .services-card-img {
+        width: 100%;
+    }
+
+    .services-card.row {
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+   
+
+    .services-card {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .services-card-info_box .services-card-development {
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .services-card-info_box .services-card-info1 {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 171.5%;
+        margin-top: 0;
+    }
+
+    .services-card-img-block {
+        width: 100%;
+    }
+
+    .sonic_bom {
+        margin-top: 100px;
+    }
+
+    .services-card-img {
+        width: 100%;
+    }
+
+    .services-card.row {
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .services-card-info {
+        margin-top: 40px;
+    }
+}

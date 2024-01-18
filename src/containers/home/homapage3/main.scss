@@ -1,0 +1,240 @@
+.home-page3 {
+    margin-top: 170px;
+    position: relative;
+}
+
+.home-page3_qol {
+    position: absolute;
+    left: -113px;
+    width: 200px;
+    top: -44px;
+    z-index: 2;
+
+}
+
+.home-page3-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    align-items: center;
+    width: 100%;
+    &>div {
+        width: 48%;
+    }
+
+    &>div+div {
+        width: 45%;
+    }
+}
+
+.home-page3-inner-left {
+    width: 47%;
+
+    .slick-arrow {
+        display: none !important;
+    }
+
+    ul {
+        display: none !important;
+    }
+}
+.home-page3-img-link {
+    display: block;
+    text-decoration: none;
+    //  background: #fff;
+     width: 594px;
+     height: 396px;
+     object-fit: cover;
+     border-radius: 15px;
+     overflow: hidden;
+
+}
+
+.home-page3-img_animate {
+    display: block;
+    text-decoration: none;
+    // background: #fff;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #36377c;
+}
+
+.home-page3-img {
+    // background: #fff;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.home-page3-inner-right {
+    width: 47%;
+
+    .slick-arrow {
+        display: none !important;
+    }
+
+    ul {
+        display: none !important;
+    }
+}
+
+.home-page3-inner-img {
+    width: 100%;
+}
+
+.home-page3-right-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    max-width: 85%;
+}
+
+.home-page3-right-p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 171.5%;
+    color: #FFFFFF;
+    max-width: 85%;
+    opacity: 0.7;
+    margin-top: 35px;
+}
+
+.home-page3-client {
+    font-style: italic;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 169.5%;
+    margin-top: 41px;
+    opacity: 0.7;
+    color: #FFFFFF;
+}
+
+.home-page3-client-block {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.client-logotip {
+    width: 75px;
+    border-radius: 7px;
+}
+
+.client-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+
+
+.btn-caro {
+    width: 45px !important;
+    height: 45px !important;
+    background: none;
+    border: none;
+    background: radial-gradient(50% 50% at 0% 50%, #3D3FA3 0%, #2B2D66 100%);
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    position: relative;
+    left: -24px;
+    user-select: none;
+
+    &:hover {
+        background: radial-gradient(50% 50% at 0% 50%, #1F92FD 0%, #3B6EF1 100%);
+    }
+}
+
+@media only screen and (max-width: 880px) {
+
+    .home-page3-inner {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+     .home-page3_qol {
+         display: none;
+     }
+    .home-page3 {
+        margin-top: 80px;
+    }
+
+    .home-page3-inner>div {
+        width: 100%;
+    }
+
+    .home-page3-img-link {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-page3-img_animate {
+        width: 100%;
+        height: 350px;
+    }
+
+    .home-page3_qol {
+        display: none;
+    }
+
+    .slick-controllers2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 22px;
+
+    }
+
+    .btn-caro {
+        position: initial;
+        margin: 0 15px;
+        user-select: none;
+    }
+
+    .home-page3-inner>div+div {
+        width: 100%;
+    }
+
+    .home-page3-right-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 142.5%;
+        max-width: 100%;
+        margin-top: 49px;
+    }
+    
+    .home-page3-right-p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 171.5%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+
+    .home-page3-img_animate {
+        width: 100%;
+        height: 215px;
+    }
+}

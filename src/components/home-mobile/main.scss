@@ -1,0 +1,52 @@
+.mobile {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 10;
+    display: none;
+}
+
+  .mobile-fixed-link {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 0px 0 rgb(104 185 70 / 52%);
+    animation: 1s linear 1s infinite running slidei;
+    background: #3CD42F;
+    color: #fff;
+    display: block;
+    position: relative;
+  }
+
+  .calling {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 0;
+  }
+
+  @keyframes slidei {
+    from {
+      box-shadow: 0px 0px 0 0 rgb(104 185 70 / 52%);
+    }
+    to {
+      box-shadow: 0px 0px 0 20px rgb(104 185 70 / 0%);
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+
+
+    .mobile {
+      bottom: 40px;
+      left: 40px;
+      display: block;
+    }
+
+    .mobile-fixed-link {
+      width: 60px;
+      height: 60px;
+    }
+  }

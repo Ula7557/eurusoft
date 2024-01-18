@@ -1,0 +1,44 @@
+.shadov-text {
+    position: relative;
+    display: flex;
+
+    &.center {
+        justify-content: center;
+    }
+
+    &.right {
+        justify-content: flex-end;
+    }
+    .shadov {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 105px;
+        line-height: 131px;
+        -webkit-text-stroke: 1px hsla(0, 0%, 100%, .2);
+        position: absolute;
+        color: transparent;
+        top: -70px;
+    }
+
+    .text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        color: #FFFFFF;
+        z-index: 1;
+
+    }
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .shadov-text.center {
+        justify-content: center;
+    }
+
+
+}

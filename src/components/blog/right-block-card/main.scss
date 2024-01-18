@@ -1,0 +1,48 @@
+.right-card {
+    width: 218px;
+    margin-top: 26px;
+    display: block;
+    text-decoration: none;
+    
+    transition: all ease 0.5s;
+    &:hover {
+        .right-card-img {
+            transform: scale(1);
+           
+        }
+    }
+}
+
+.right-card-img {
+    width: 100%;
+    overflow: hidden;
+    transition: all ease 0.5s;
+
+}
+
+.right-card-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 14px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 880px) {
+
+
+    .right-card {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+   .right-card {
+       width: 100%;
+   }
+
+}

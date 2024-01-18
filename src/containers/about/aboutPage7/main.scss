@@ -1,0 +1,128 @@
+.about-page7 {
+    position: relative;
+    background-image: url('../../../assets/images/img/about/back.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 108px 106px;
+    margin-top: 200px;
+}
+
+.about-page7-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #08103D;
+}
+
+.about-page7-link {
+    padding: 15px 46px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    background: #00A5EF;
+    box-shadow: 0px 4px 31px rgba(0, 165, 239, 0.17);
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 25px;
+    transition: all ease 0.5s;
+    border: 1px solid transparent;
+    &:hover {
+        color: #00A5EF;
+        background: #fff;
+        border: 1px solid #00A5EF;
+    }
+
+}
+
+.about-messages {
+    position: absolute;
+    right: 15px;
+    bottom: 69px;
+
+}
+
+.about-pencil {
+    width: 500px;
+    position: absolute;
+    right: -164px;
+    bottom: -147px;
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+    .about-pencil {
+        position: absolute;
+        right: 0;
+        bottom: -270px;
+    }
+
+
+
+    
+}
+
+@media only screen and (max-width: 960px) {
+
+    .about-page7 {
+        background-image: none;
+        padding: 0 15px;
+        margin-top: 60px;
+    }
+
+    .about-pencil {
+        display: none;
+    }
+
+    .about-messages {
+        display: none;
+    }
+
+    .about-page7-text {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+
+    .about-page7-link {
+        margin-top: 28px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .about-page7 {
+        background-image: none;
+        padding: 0 15px;
+        margin-top: 60px;
+    }
+
+    .about-pencil {
+        display: none;
+    }
+
+    .about-messages {
+        display: none;
+    }
+
+    .about-page7-text {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+
+    .about-page7-link {
+        margin-top: 28px;
+    }
+}

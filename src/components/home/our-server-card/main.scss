@@ -1,0 +1,199 @@
+.server-card1 {
+    width: 318px;
+    background: radial-gradient(50% 50% at 0% 50%, #3D3FA3 0%, #2B2D66 100%);
+    border: 2px solid rgba(255, 255, 255, 0.0782099);
+    box-sizing: border-box;
+    box-shadow: 0px 24px 48px rgba(0, 1, 44, 0.157184);
+    border-radius: 12px;
+    height: 580px;
+    margin: 70px auto;
+    padding-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    position: relative;
+
+    &:hover {
+        background: radial-gradient(50% 50% at 0% 50%, #1F92FD 0%, #3B6EF1 100%);
+        border: 2px solid rgba(255, 255, 255, 0.0782099);
+        box-sizing: border-box;
+        box-shadow: 0px 24px 48px rgba(0, 1, 44, 0.157184);
+        border-radius: 12px;
+
+        .img-shadov-icon {
+            fill: #1F92FD;
+        }
+
+        .img-border-icon {
+            fill: #1F92FD;
+        }
+
+
+
+
+    }
+
+}
+
+
+.card_extra_title_blocks {
+
+
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 152.5%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+li {
+    font-style: normal;
+    font-weight: 275;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+}
+
+
+.card-img-block {
+    position: relative;
+    left: -10px;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    top: -75px;
+}
+
+.img-border {
+    position: absolute;
+    top: 25px;
+    left: 42px;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    width: 115px;
+    height: 115px;
+}
+
+.img-shadov {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    width: 144px;
+    height: 144px;
+
+}
+
+.img-shadov-icon {
+    fill: #2A2D65;
+}
+
+.img-border-icon {
+    fill: #2A2D65;
+}
+
+.img-icon {
+    z-index: 3;
+    position: absolute;
+    top: 57px;
+    left: 29px;
+    right: 0;
+    margin: auto;
+    width: 48px;
+    height: 48px;
+}
+
+.card-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card-info {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin: 24px auto 0 auto;
+    opacity: 0.7;
+    color: #FFFFFF;
+    max-width: 60%;
+
+}
+
+.icon-width {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+.vacancy_singlie_link {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+
+.vacancy_card {
+    padding: 0 32px 32px 32px;
+
+    .ulText {
+        height: 300px;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .card-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 135.5%;
+    }
+
+    .card-info {
+        font-weight: 275;
+        font-size: 18px;
+        line-height: 152.5%;
+        max-width: 80%;
+    }
+
+
+    .server-card1 {
+        &:hover {
+            background: radial-gradient(50% 50% at 0% 50%, #3D3FA3 0%, #2B2D66 100%);
+            border: 2px solid rgba(255, 255, 255, 0.0782099);
+            box-sizing: border-box;
+            box-shadow: 0px 24px 48px rgba(0, 1, 44, 0.157184);
+
+           .img-shadov-icon {
+               fill: #2A2D65;
+           }
+
+           .img-border-icon {
+               fill: #2A2D65;
+           }
+
+        }
+    }
+
+    
+}

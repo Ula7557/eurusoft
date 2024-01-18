@@ -1,0 +1,42 @@
+.home-page4 {
+    margin-top: 151px;
+    position: relative;
+}
+
+.server-card-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 85px;
+}
+
+.home-page4_qol {
+    position: absolute;
+    bottom: -302px;
+    right: -150px;
+    transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 960px) {
+
+    .home-page4_qol {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .home-page4_qol {
+        display: none;
+    }
+
+    .server-card-block {
+        margin-top: 40px;
+    }
+
+    .home-page4 {
+        margin-top: 100px;
+    }
+}
+

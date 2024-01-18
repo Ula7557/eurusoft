@@ -1,0 +1,154 @@
+// .home-page2-left {
+//     width: 50%;
+// }
+
+.home-page2-text1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 171.5%;
+    opacity: 0.7;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+
+.home-page2 {
+    position: relative;
+}
+
+.text1 {
+    margin-top: 40px;
+}
+
+.home-page2-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    position: relative;
+    color: #00A5EF;
+    margin-top: 45px;
+    display: inline-block;
+    &:hover {
+        &::after {
+            transform: translateX(5px);
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -30px;
+        bottom: 0;
+        margin: auto;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../../assets/images/Iconly/Light/Iconly/Light/Arrow-Right-Circle.svg');
+        background-repeat: no-repeat;
+        transition: all ease 0.5s;
+    }
+}
+
+.home-page2-right {
+    display: flex;
+    width: 467px ;
+    flex-wrap: wrap;
+    background: #25265B;
+    border-radius: 45px 0px 0px 45px;
+    padding: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.home-page2-right-box {
+    padding: 35px;
+    width: 154px ;
+
+    &:nth-child(1) {
+        
+        border-right: 1px solid #202151;
+    }
+    &:nth-child(3) {
+        border-top: 1px solid #202151;
+    }
+
+    &:nth-child(4) {
+        border-left: 1px solid #202151;
+        border-top: 1px solid #202151;
+    }
+
+}
+
+.box-span {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 23px;
+    opacity: 0.7;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+}
+
+.box-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.home-page2-block {
+    position: relative;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+    .home-page2-right-box {
+        padding: 35px;
+        width: 104px;
+    }
+
+
+    .home-page2-right {
+        display: flex;
+        width: 350px;
+        flex-wrap: wrap;
+        background: #25265B;
+        border-radius: 45px 0px 0px 45px;
+        padding: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .youtube-iframe {
+        width: 488px;
+        height: 247px;
+        display: flex;
+        margin: 100px auto 0 auto;
+        z-index: 11;
+        position: relative;
+        left: 0;
+        border-radius: 40px;
+        top: -79px;
+    }
+
+
+}
+

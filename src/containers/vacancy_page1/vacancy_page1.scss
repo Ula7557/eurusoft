@@ -1,0 +1,229 @@
+.vacancy_page1_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.classes {
+  flex-direction: row-reverse;
+}
+
+.vacancy_page1_block_left_title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 58px;
+  color: #ffffff;
+
+  span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 55px;
+    color: #00A5EF;
+  }
+}
+
+.vacancy_page1_block_left_description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 171.5%;
+  color: #ffffff;
+  margin-top: 13px;
+  opacity: 0.7;
+}
+
+.vacancy_p_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 55px;
+  color: #fff;
+}
+
+
+
+.vacancy_p_text1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 55px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.vacancy_span_text1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 55px;
+  color: #00A5EF;
+}
+
+.vacancy_page1_block_left {
+  width: 45%;
+}
+
+.vacancy_page1_block_right {
+  width: 45%;
+}
+
+.vacancy_page1_block_left_miniTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.vacancy_page1_block_left_miniDescription {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 171.5%;
+  margin-top: 44px;
+  opacity: 0.7;
+  color: #ffffff;
+}
+
+.vacancy_page1_block_left_extraTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 4px;
+  color: #ffffff;
+}
+
+.colum-rew {
+  flex-direction: row-reverse;
+}
+
+.shadov_text_none {
+  display: none;
+}
+
+.shadov_text {
+  display: block;
+}
+
+
+@media only screen and (max-width:920px) {
+
+  .vacancy_page1_block_left {
+    width: 100%;
+  }
+
+  .vacancy_page1_block_right {
+    width: 100%;
+  }
+
+  .shadov_vac {
+    margin-top: 60px;
+  }
+
+  .vacancy_page1_block {
+    flex-direction: column-reverse;
+  }
+
+  .vacancy_page1_block_right_img {
+    width: 50%;
+    margin: auto;
+    display: flex;
+  }
+
+  .vacancy_page1_block_left_miniTitle {
+    margin-top: 40px;
+  }
+
+}
+
+@media only screen and (max-width:920px) {
+
+  .vacancy_page1_block_right_img {
+    width: 100%;
+  }
+
+  .vacancy_page1_block {
+    flex-direction: column;
+  }
+
+  .vacancy_page1_block_left_title {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    margin-top: 30px;
+  }
+
+
+  .vacancy_page1_block_left_description {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 171.5%;
+  }
+
+  .vacancy_p_text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .vacancy_p_text1 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+
+  .vacancy_page1_block {
+    margin-top: 80px;
+  }
+
+  .vacancy_page1_block_right_img {
+    width: 70%;
+    margin-top: 40px;
+  }
+
+
+  .vacancy_page1_block_left_extraTitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .vacancy_page1_block_left_miniDescription {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 171.5%;
+  }
+
+  .vacancy_page1_block_left_miniTitle {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+
+
+}
+
+
+
+@media only screen and (max-width:480px) {
+
+
+  .vacancy_page1_block {
+    margin-top: 40px;
+  }
+
+  .vacancy_page1_block_left_title {
+    margin-top: 50px;
+  }
+
+  .vacancy_page1_block_right_img {
+    width: 100%;
+  }
+
+}
